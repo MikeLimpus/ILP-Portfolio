@@ -1,0 +1,103 @@
+<head>
+   <title>Mike Limpus ILP Portfolio</title> 
+   <meta charset="utf-8"/>
+   <style>
+
+        body {
+            color: #2e3440;
+            background-color: #ECEFF4;
+            width: 50%;
+            margin: auto;
+            font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;            
+        }
+        a:link      {color:#3B4252;}
+        a:visited   {color:#4C566A;}
+        a:hover     {color:#5E81AC; text-decoration: none;}
+        a:active    {color:#FF0000;}
+
+        .row {
+            display: flex;
+        } 
+        
+        .column {
+            /* float: left;
+            width: 50%; */
+            flex: 50%;
+        }
+
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        /* Clear floats after the columns */
+        /* .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        } */
+        .floatInline {
+            float: left;
+            border: #4c566a 1px solid;
+            padding: 1px;
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        h1 {text-align: center;}
+        h2 {text-align: center;}
+        p {text-align: center;}
+        
+   </style>
+</head>
+<body>
+    <a href = "http://csumb.edu" target="_blank">
+        <img 
+            src="media/CSUMB Logo 540 Bay Blue.png"
+            class="center"
+        >
+    </a>
+    
+    <div class="row">
+        <div class="column">
+            <img 
+                src="media/0.jpg"
+                class="floatInline"
+                width = 90%
+                height = width
+            >
+        </div>
+        <div class="column">
+            <h1>Mike Limpus</h1>
+            <h2>ILP Portfolio Page</h2>
+            <p><b>AS in Computer Science and Physics, AA in Mathematics from Crafton Hills College.
+                Currently undertaking BS program at California State University Monterey Bay. My goal is to gain a 
+                broad set of skills to apply in a software engineering career.  </b></p>
+        </div>
+    </div>
+    <h2 class="center">Index</h2>
+    <div class="row">
+        <div class="column">
+            <a href="CST300.html"><h3>CST 300 - Major ProSeminar</h3></a>
+            <h3>CST 338 - Software Design</h3>
+            <h3>CST 363 - Database Managment</h3>
+            <h3>CST 334 - Operating Systems</h3>
+            <h3>CST 311 - Intro to Computer Networking</h3>
+            <h3>CST 336 - Internet Programming</h3>
+        </div>
+        <div class="column">
+            <h3>CST 462S - Race, Gender, and Class in the Digital World</h3>
+            <h3>CST 328 - Digital Art and Design</h3>
+            <h3>CST 370 - Algorithms</h3>
+            <h3>CST 383 - Intro to Data Science</h3>
+            <h3>CST 329 - Reasoning with Logic</h3>
+            <h3>CST 438 - Software Engineering</h3>
+            <h3>CST 499 - Capstone</h3>
+        </div>
+    </div>
+    
+</body>
